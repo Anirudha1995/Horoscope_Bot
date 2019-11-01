@@ -1,0 +1,17 @@
+slots:
+  horoscope:
+    type: text
+
+intents:
+  - greet
+  - goodbye
+  - todays_horoscope
+
+entities:
+  - horoscope
+
+actions:
+- action_greet
+- action_todays_horoscope
+- action_goodbye
+
